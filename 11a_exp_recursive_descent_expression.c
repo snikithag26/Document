@@ -1,7 +1,11 @@
 /*
 QUESTION:
-11. Write a recursive descent parser for the grammar a. E->E+T E->T T->T*F
-T->F F->(E)/id.
+11. Write a recursive descent parser for the grammar 
+a. E->E+T 
+   E->T 
+   T->T*F
+   T->F 
+   F->(E)/id.
 
 DESCRIPTION:
 A recursive descent parser is a top-down parser where each grammar rule
